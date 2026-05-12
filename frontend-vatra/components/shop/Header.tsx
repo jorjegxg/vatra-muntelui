@@ -53,9 +53,9 @@ export function Header() {
           <img
             src={LOGO_PATH}
             alt=""
-            width={56}
-            height={56}
-            className="h-12 w-auto sm:h-14 md:h-16"
+            width={64}
+            height={64}
+            className="h-12 w-auto sm:h-14 md:h-[3.25rem]"
             decoding="async"
           />
           <span>{STORE_NAME}</span>
