@@ -18,8 +18,8 @@ export default function AllCollectionsPage() {
         Toate produsele
       </h1>
       <p className="mt-3 max-w-2xl text-ink/75">
-        Catalog complet de prezentare — {products.length} articole. Prețurile sunt
-        exemplificative.
+        Catalog de prezentare — {products.length} produse pentru corp și casă. Ingredientele
+        sunt afișate pe fiecare articol.
       </p>
       <div className="mt-12">
         <ProductGrid products={products} />

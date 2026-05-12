@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const HERO_IMAGE =
-  "https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&h=900&q=80";
+  "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&h=900&q=80";
 
 export function Hero() {
   return (
@@ -23,11 +23,11 @@ export function Hero() {
           Magazin de prezentare
         </p>
         <h1 className="max-w-md text-4xl font-semibold leading-tight tracking-tight text-ink md:text-5xl">
-          Produse naturale, alese cu grijă
+          Îngrijire și menaj ultra natural
         </h1>
         <p className="mt-4 max-w-md text-base leading-relaxed text-ink/75">
-          Descoperă o selecție de miere, ceaiuri, uleiuri și delicatese — inspirate de
-          munte și livrate cu respect pentru mediu.
+          Șampon, pastă de dinți, săpunuri, detergenți de rufe și de vase — formule curate,
+          ingrediente transparente, fără chimie inutilă.
         </p>
         <Link
           href="/collections/all"

@@ -9,22 +9,22 @@ const tile = (id: string) =>
 
 const COLLECTIONS = [
   {
-    title: "Dulce natural",
-    subtitle: "Miere și siropuri",
+    title: "Îngrijire personală",
+    subtitle: "Șampon, pastă, duș",
     href: "/collections/all",
-    image: tile("1558642452-9d2a7deb7f62"),
+    image: tile("1523381210434-271e8be1f52b"),
   },
   {
-    title: "Ceaiuri & infuzii",
-    subtitle: "Plante și fructe uscate",
+    title: "Săpunuri & mâini",
+    subtitle: "Solid și lichid",
     href: "/collections/all",
-    image: tile("1564890369478-c89ca6d9cde9"),
+    image: tile("1556228578-0d85b1a4d571"),
   },
   {
-    title: "Îngrijire",
-    subtitle: "Săpunuri și uleiuri",
+    title: "Menaj eco",
+    subtitle: "Rufe și bucătărie",
     href: "/collections/all",
-    image: tile("1474979266404-7eaacbcd87c5"),
+    image: tile("1576091160550-2173dba999ef"),
   },
 ];
 
@@ -77,8 +77,8 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
           <h2 className="text-2xl font-semibold tracking-tight text-ink">Recomandate</h2>
           <p className="mt-2 max-w-xl text-sm text-ink/75">
-            Patru produse alese pentru a ilustra vitrina — aceleași date ca în catalogul
-            complet.
+            Produse de igienă și curățenie ultra naturale — fiecare cu ingredientele afișate
+            clar.
           </p>
           <div className="mt-10">
             <ProductGrid products={featured} />
@@ -92,19 +92,20 @@ export default function HomePage() {
             <h2 className="text-2xl font-semibold tracking-tight text-ink">Despre noi</h2>
             <p className="mt-4 leading-relaxed text-ink/80">
               Suntem un magazin conceptual inspirat de viața la munte: ingrediente curate,
-              furnizori mici și ambalaje cât mai simple. Acest site este{' '}
+              formulări blânde pentru piele și casă. Acest site este{' '}
               <strong>doar de prezentare</strong> — poți răsfoi produsele ca într-un magazin
               online, fără coș real sau checkout.
             </p>
             <p className="mt-4 leading-relaxed text-ink/80">
-              Culorile și layout-ul urmăresc experiența familiară a unui magazin tip Shopify,
-              adaptate identității noastre naturale.
+              Ne concentrăm pe formule cât mai simple: plante, minerale blânde și surfactanți
+              din surse vegetale. Pe fiecare pagină de produs vezi lista de ingrediente, ușor de
+              citit.
             </p>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-accent/50">
             <Image
-              src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&h=675&q=80"
-              alt="Legume și verdețuri proaspete"
+              src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&h=675&q=80"
+              alt="Produse naturale colorate"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"

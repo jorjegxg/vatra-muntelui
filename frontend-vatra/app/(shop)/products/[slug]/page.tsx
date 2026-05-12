@@ -59,6 +59,29 @@ export default async function ProductPage({ params }: Props) {
           </h1>
           <p className="mt-4 text-2xl font-semibold text-ink">{product.priceLei.toFixed(0)} lei</p>
           <p className="mt-6 leading-relaxed text-ink/80">{product.longDescription}</p>
+
+          <section
+            className="mt-8 rounded-2xl border border-accent/50 bg-accent/20 p-5"
+            aria-labelledby="ingrediente-heading"
+          >
+            <h2 id="ingrediente-heading" className="text-sm font-semibold text-ink">
+              Ingrediente
+            </h2>
+            <p className="mt-1 text-xs text-ink/55">
+              Listă simplificată pentru prezentare — pe produsul real urmează ordinea INCI completă.
+            </p>
+            <ul className="mt-4 flex flex-wrap gap-2">
+              {product.ingredients.map((ing) => (
+                <li
+                  key={ing}
+                  className="rounded-full border border-accent/70 bg-surface px-3 py-1.5 text-sm text-ink/90"
+                >
+                  {ing}
+                </li>
+              ))}
+            </ul>
+          </section>
+
           <div className="mt-10 flex flex-wrap gap-3">
             <button
               type="button"

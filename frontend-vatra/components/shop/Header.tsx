@@ -45,7 +45,7 @@ function IconBag() {
 export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-accent/40 bg-surface/95 backdrop-blur-sm">
-      <div className="mx-auto flex min-h-16 items-center justify-between gap-6 px-4 py-2 sm:px-6 md:min-h-[4.5rem]">
+      <div className="mx-auto flex min-h-16 max-w-6xl items-center justify-between gap-6 px-4 py-2 sm:px-6 md:min-h-18">
         <Link
           href="/"
           className="flex shrink-0 items-center gap-2.5 text-lg font-semibold tracking-tight text-ink"
@@ -55,7 +55,7 @@ export function Header() {
             alt=""
             width={64}
             height={64}
-            className="h-12 w-auto sm:h-14 md:h-[3.25rem]"
+            className="h-12 w-auto sm:h-14 md:h-16"
             decoding="async"
           />
           <span>{STORE_NAME}</span>
